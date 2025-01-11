@@ -1,10 +1,10 @@
 // Function to create the table dynamically
 function createTable() {
     // Prompt for number of rows
-    const rows = parseInt(prompt("Input number of rows:"), 10);
+    const rows = parseInt(prompt("Input number of rows"), 10);
 
     // Prompt for number of columns
-    const columns = parseInt(prompt("Input number of columns:"), 10);
+    const columns = parseInt(prompt("Input number of columns"), 10);
 
     // Get the table element by its ID
     const table = document.getElementById("myTable");
